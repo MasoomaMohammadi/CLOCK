@@ -3,14 +3,18 @@ body {
 }
 
 .bg {
-  padding:5px;
-  text-align:center;
-  margin:250px 560px;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ 
 }
 
 h1 {
+  box-shadow:2px 1px 10px 5px #fff;
+  font-size:50px;
   color:#DE1964;
-  background-color:black;
-  padding:10px;
+  background-color:#000;
+  padding:20px;
 }
 
