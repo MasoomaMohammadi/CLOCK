@@ -5,6 +5,10 @@ function setTime() {
     let s = date.getSeconds();
     let mAnda = "AM";
 
+    if (h === 0) {
+        h = 12
+    }
+
     if (h >= 12) {
         h = h - 12;
         mAnda = "PM";
